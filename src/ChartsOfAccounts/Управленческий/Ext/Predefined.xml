@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.20">
+	<Item id="dcea2a33-0b41-44d9-ab4d-eb9e300d13f5">
+		<Name>СырьеИМатериалы</Name>
+		<Code>10      </Code>
+		<Description>Сырье и материалы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order> 10     </Order>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<AccountingFlags/>
+	</Item>
+	<Item id="5b18d17a-428a-4040-a27c-e6bff5d26f2e">
+		<Name>НДСПоПриобретеннымЦенностям</Name>
+		<Code>19          </Code>
+		<Description>НДС по приобретенным ценностям</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order> 19</Order>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<AccountingFlags/>
+	</Item>
+	<Item id="f77dbcac-e378-4a7c-add1-0c9e1be12254">
+		<Name>Продажи</Name>
+		<Code>90      </Code>
+		<Description>Продажи</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order> 90     </Order>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<AccountingFlags/>
+		<ChildItems>
+			<Item id="33cf3190-c232-42a6-98fa-5d2b01478318">
+				<Name>УправленческиеРасходы</Name>
+				<Code>90.08   </Code>
+				<Description>Управленческие расходы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order> 90.08  </Order>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+				<AccountingFlags/>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e96cbb73-00b4-490f-b68d-130b4b508f16">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСобытий" category="Ref">
+				<xr:TypeId>82602d2f-d639-48e2-9c8d-11e16dc32d5d</xr:TypeId>
+				<xr:ValueId>deeed494-2ac8-49a4-a825-2eb70c406a88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСобытий" category="Manager">
+				<xr:TypeId>501e3140-2990-40e4-93b3-fc82e7bc499f</xr:TypeId>
+				<xr:ValueId>417b5512-3e47-4315-b3ac-dcaae5f48f86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСобытий" category="List">
+				<xr:TypeId>44d66b04-6bc8-44bf-be09-068657192e9b</xr:TypeId>
+				<xr:ValueId>3986708f-daf2-43ab-8e8f-61beb6161b22</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСобытий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e9531f51-e3cb-4ab8-a2d8-5da0e32a02ec</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="075d3b82-be3d-4ea4-8cde-440584f6881f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Прочее</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ec616aa-bcbf-438d-8cf7-5ba17639bf1c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

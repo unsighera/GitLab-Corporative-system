@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4707d101-f7d3-4f08-a4fa-f0651925e3df">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КолонкиКалендарейСотрудников" category="Object">
+				<xr:TypeId>85b9515e-7f50-4e02-9a79-823c704d389b</xr:TypeId>
+				<xr:ValueId>d8e82ac5-badd-4de7-94f8-9f92ff491272</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КолонкиКалендарейСотрудников" category="Ref">
+				<xr:TypeId>279b7f18-e2dc-4bd6-802f-3ee8c63bfea1</xr:TypeId>
+				<xr:ValueId>bf38d42f-8546-4d67-bc75-283e02677b11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КолонкиКалендарейСотрудников" category="Selection">
+				<xr:TypeId>e31b5ad8-7dca-4ece-930e-481c1e44ddce</xr:TypeId>
+				<xr:ValueId>d67aec8f-3a86-4643-99e9-15d6155e9367</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КолонкиКалендарейСотрудников" category="List">
+				<xr:TypeId>a0e79c35-7c8c-453e-84c4-9c00e6f4c98e</xr:TypeId>
+				<xr:ValueId>44717813-30aa-49e5-8190-dcf475333209</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КолонкиКалендарейСотрудников" category="Manager">
+				<xr:TypeId>3d0f66e4-735c-4ab1-83cf-c5f372666ccd</xr:TypeId>
+				<xr:ValueId>a3ff9922-f480-4abd-a121-42adca298aa0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КолонкиКалендарейСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5f3b5a00-dcc8-49fd-9b85-138a57e2d972</ExtendedConfigurationObject>
+			<DescriptionLength>25</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ffb19ee4-8986-4afe-af95-98be403027b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Порядок</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c37133d6-7cfe-426e-8e04-9cd290b86d50</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

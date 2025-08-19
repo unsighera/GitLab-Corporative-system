@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="ExchangePlan.Пр_ОбменGitLab.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.КалендариСотрудников.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЗаписиКалендаряСотрудника.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.КолонкиКалендарейСотрудников.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Валюты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ВидыЦенКонтрагентов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.КлассификаторЕдиницИзмерения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ХозяйственныеОперации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтруктурныеЕдиницы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ВидыНачисленийИУдержаний.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ВидыЦен.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Должности.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтавкиНДС.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СостоянияСобытий.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГрафикиРаботы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.КатегорииНоменклатуры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.НаправленияДеятельности.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаданиеНаРаботу.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.АктВыполненныхРабот.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.НачислениеЗарплатыУНФ.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.СчетНаОплату.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Пр_ОтчетЗаДень.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Пр_ЛимитыПоКолонкам.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.СотрудникиПользователя.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактовоеОтклонение.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатурыКонтрагентов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Пр_НеотправленныеСообщенияGitLab.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Пр_ЕжедневныйОпрос.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.Пр_АнализПрибыльности.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.Пр_ПланФактовоеОтклонениеЗаданий.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="ExchangePlan.Пр_ОбменGitLab.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.КалендариСотрудников.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ЗаписиКалендаряСотрудника.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.КолонкиКалендарейСотрудников.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Валюты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ВидыЦенКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.КлассификаторЕдиницИзмерения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ХозяйственныеОперации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СтруктурныеЕдиницы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ВидыНачисленийИУдержаний.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ВидыЦен.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Должности.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СтавкиНДС.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СостоянияСобытий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.КатегорииНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.НаправленияДеятельности.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ЗаданиеНаРаботу.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.АктВыполненныхРабот.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.НачислениеЗарплатыУНФ.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.СчетНаОплату.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.Пр_ОтчетЗаДень.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_ПланыСчетов</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Пр_ЛимитыПоКолонкам.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.СотрудникиПользователя.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактовоеОтклонение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатурыКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Пр_НеотправленныеСообщенияGitLab.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Пр_ЕжедневныйОпрос.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="ExchangePlan.Пр_ОбменGitLab.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.КалендариСотрудников.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ЗаписиКалендаряСотрудника.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.КолонкиКалендарейСотрудников.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыДоступа.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Валюты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВидыЦенКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.КлассификаторЕдиницИзмерения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ХозяйственныеОперации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтруктурныеЕдиницы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВидыНачисленийИУдержаний.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВидыЦен.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Должности.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Кассы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.БанковскиеСчета.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтавкиНДС.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.СостоянияСобытий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.КатегорииНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.НаправленияДеятельности.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Справочники</CommandGroup>
+		</Command>
+		<Command name="Document.ЗаданиеНаРаботу.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.АктВыполненныхРабот.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.Событие.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.НачислениеЗарплатыУНФ.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.СчетНаОплату.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="Document.Пр_ОтчетЗаДень.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
+		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_ПланыСчетов</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Пр_ЛимитыПоКолонкам.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.СотрудникиПользователя.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактовоеОтклонение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ЦеныНоменклатурыКонтрагентов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Пр_НеотправленныеСообщенияGitLab.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Пр_ЕжедневныйОпрос.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>CommandGroup.Пр_Справочники</Group>
+		<Group>CommandGroup.Пр_Документы</Group>
+		<Group>CommandGroup.Пр_ПланыСчетов</Group>
+		<Group>CommandGroup.Пр_РегистрыСведений</Group>
+	</GroupsOrder>
+</CommandInterface>

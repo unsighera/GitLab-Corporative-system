@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="60e48beb-ed41-4604-a3fc-701aa6dedaa0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Событие" category="Object">
+				<xr:TypeId>936f798d-ffe2-4498-adcc-cb138341c1a6</xr:TypeId>
+				<xr:ValueId>d5dfba88-0234-4df2-81e8-8aea92c8cc0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Событие" category="Ref">
+				<xr:TypeId>ff38b90a-59fc-4423-b970-af46640f0f20</xr:TypeId>
+				<xr:ValueId>650f9f53-a2c2-469d-b72d-1bf0a906c8b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Событие" category="Selection">
+				<xr:TypeId>9eb40925-55e4-4b1f-bb4d-ffc4e9b5a1a0</xr:TypeId>
+				<xr:ValueId>ddd5f2bc-92af-458e-bd34-2f94f79b7212</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Событие" category="List">
+				<xr:TypeId>99774a42-9493-4078-85df-b4cbf6683c4c</xr:TypeId>
+				<xr:ValueId>b021a2d5-d3c5-4238-91fd-062483ad2a0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Событие" category="Manager">
+				<xr:TypeId>b30af917-49fb-426e-8795-fd0f23d91ba8</xr:TypeId>
+				<xr:ValueId>18b6deb9-54bd-4b4e-9bf2-09caf31418d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Событие</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>571e1bd9-0f64-4a05-a276-dba4fe242ad0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="78fac940-a627-444a-8370-2fe00a2a82d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Содержание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8c7a9073-0cb8-4dcf-80e2-fe0727d6a6d0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="506b7058-1ca5-459c-b2a4-e5a2c005eb41">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>22164984-eeb8-4a63-903f-d680f590f8cf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СостоянияСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e86a579c-ab42-4081-b618-1d1e95a9a39b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Тема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a947fb87-d7d6-4b6c-b256-5dfe8175048b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="65f14065-0413-454a-bf98-ce00c6e8d51f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>12fcaefd-e8e5-40f6-9305-25199681a2f6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b90dcc28-c8d4-44db-94b0-b5bcd3e55063">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Важность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d26afd11-215e-453c-85ba-55c39f59463b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыВажности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1ce270cd-5740-4b0e-8b63-d3a37362a899">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dacffd75-cb08-4741-a129-8c7a62abe7da</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="26b678e8-ab9b-4e5d-9144-347c5cce9e92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23c3bc38-0bb4-45ae-b9e3-343f892c3193</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b851d215-bb52-435a-8420-fa7928252c0b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>622f957c-a067-4ed5-bf6b-57c018c35c02</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="026fe609-850b-435c-a9f4-18f2c98d66c2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Событие.ДокументыОснования" category="TabularSection">
+						<xr:TypeId>fdf56eb4-c20c-4eb8-8203-312468bfc52c</xr:TypeId>
+						<xr:ValueId>c0a6e5b3-ddf1-4871-a6d3-b4555250acf8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Событие.ДокументыОснования" category="TabularSectionRow">
+						<xr:TypeId>2fb7947d-3c2d-45fa-ad65-d05754f7a186</xr:TypeId>
+						<xr:ValueId>fe462926-0e2d-4509-9fc9-b1bebafc3592</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыОснования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0d63eba3-9057-4617-bc37-8ac5e4f0b84f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="db932d0a-71a5-4704-b942-0fec6d68c2e3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>93169ae9-3c19-41b6-8517-2bbc5e300fe0</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709">
+		<Properties>
+			<Name>Пр_КорпоративнаяСистемаGitLab</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Корпоративная система GitLab</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.Пр_GitLab</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_МодификацияФормСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ТекущийПользователь</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ИсточникЗаписейКалендаря</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Органайзер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Word32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияВходящие</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтрелкаВлевоСплошная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Шестеренка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СерыйКрест</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПереключениеМеждуРежимами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияЗадачиКонтактЦентра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтрелкаВправоСплошная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ИтогиФонГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветТекстаПравойПанелиОтборов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ШрифтПравойПанелиОтборов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.НедоступныеДанныеЦвет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ВажнаяНадписьШрифт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветГиперссылки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ТекущиеДелаЗаголовокРазделаШрифт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗаписиКалендаряСотрудника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КолонкиКалендарейСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КалендариСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаданиеНаРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонтактЦентр</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СотрудникиПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ЛимитыПоКолонкам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_Справочники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_Документы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_Аналитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_Администрирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_ПланыВидовХарактеристик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_ПланыСчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_ПланыВидовРасчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_РегистрыРасчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_РегистрыСведений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_РегистрыНакопления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_РегистрыБухгалтерии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_БизнесПроцессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Пр_Задачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Пр_GitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_ОбменGitLabКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_ОбменGitLabВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Пр_ОбменGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Пр_АдресСервераGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.Пр_ОтправкаОтложенныхIssue</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Пр_GitLabWebhooks</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Пр_ОтладкаИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Пр_ПланФактовоеОтклонениеЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ПланФактовоеОтклонение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.Пр_ОбновлениеВсехIssue</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВалютаУчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыЦенКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КлассификаторЕдиницИзмерения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНоменклатурыКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Пр_ПланФактовыйАнализ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Пр_ФормированиеПакетаДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Событие</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетНаОплату</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АктВыполненныхРабот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплатыУНФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БанковскиеСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Кассы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДоговорыКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтруктурныеЕдиницы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ХозяйственныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтавкиНДС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНачисленийИУдержаний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыЦен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_НачислениеЗарплатыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КурсВалюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветДоходаВПроекте</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветРасходаВПроекте</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ЦветТекстаПоложительногоЗначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ФонУправляющегоПоля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыНалогообложенияНДС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыВажности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыСтруктурныхЕдиниц</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Пр_АнализПрибыльности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_НеотправленныеСообщенияGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_БотыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.Пр_ОбработкаБотов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.Пр_ОтправкаОтложенныхСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Bot.Пр_БотGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ЕжедневныйОпрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Пр_ПровестиОпрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Пр_ОтчетЗаДень</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_БотыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.Пр_ТекущееПодразделение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.Пр_ТекущийСотрудник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_ОбменGitLabСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_КорпоративнаяСистемаGitLabВстраиваниеУНФСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_КорпоративнаяСистемаGitLabВстраиваниеУНФВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.Пр_ОпросСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПиктограммыЭлементов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Отчеты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ПоясняющийТекст</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КатегорииНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НаправленияДеятельности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыСтавокНДС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ПризнакиПредметаРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыСчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.БазыРаспределенияРасходов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеДоступомПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПросмотрКорпоративнаяСистемаGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПолучениеТекущийСотрудник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПолучениеУстановкаТекущийСотрудник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПолучениеТекущееПодразделение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПолучениеУстановкаТекущееПодразделение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеОбменGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеОбменGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПросмотрПланФактовыйАнализ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ПросмотрПровестиОпрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеUpdateIssue</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеGetMessage</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеАдресСервераGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_РедактированиеАдресСервераGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеОтчетЗаДень</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеОтчетЗаДень</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеПланФактовоеОтклонениеЗаданий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеАнализПрибыльности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеОтладкаИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ИспользованиеФормированиеПакетаДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеЛимитыПоКолонкам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеЛимитыПоКолонкам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеПланФактовоеОтклонение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеПланФактовоеОтклонение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеНеотправленныеСообщенияGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеНеотправленныеСообщенияGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеЕжедневныйОпрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеЕжедневныйОпрос</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Пр_MobileApplic</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

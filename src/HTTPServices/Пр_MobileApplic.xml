@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<HTTPService uuid="3d4e1fd1-06df-4c91-aabe-e6490764dba1">
+		<Properties>
+			<Name>Пр_MobileApplic</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пр mobile applic</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<RootURL>mobile_api</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="e4d918e6-caac-464a-8cfe-d274aa801f4f">
+				<Properties>
+					<Name>GetProjects</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get projects</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/projects/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="c60c3dd4-b978-48fc-86ea-98759e9500ce">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetProjectsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="de5a1e59-e0b9-4092-983e-b626e6538a73">
+				<Properties>
+					<Name>GetCounterparties</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get counterparties</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/counterparties/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ee7efce7-5380-497d-9e7a-3b1182265644">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetCounterpartiesGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="5b931e61-d25e-4247-be48-74107c78c9a3">
+				<Properties>
+					<Name>GetContracts</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get contracts</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/contracts/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="4d38f539-2d96-4f40-9248-fb9ab7d8e17d">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetContractsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="38d19db2-4acf-4792-8921-a9ae65a17a1c">
+				<Properties>
+					<Name>GetOrganizations</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get organizations</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/organizations/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="3aed15b9-6a5e-439f-8e4f-017c0ac0955e">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetOrganizationsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="be32179b-4569-4904-8109-ee678b313bdf">
+				<Properties>
+					<Name>GetCurrencies</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get currencies</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/currencies/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="1843a918-d4d1-47ca-a722-8303e3ef3afa">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetCurrenciesGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="d648af5d-714b-4d6a-83e8-c95394f85cb2">
+				<Properties>
+					<Name>GetIndividuals</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get individuals</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/individuals/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="71157902-c39f-4827-912d-f00d452dddbe">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetIndividualsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="bf900f68-468f-4f00-b782-2c1bad7dd151">
+				<Properties>
+					<Name>GetStaff</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get staff</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/staff/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="39c4feee-bb5a-4e86-a9ce-e8e48a63a70e">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetStaffGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="fedf4591-6101-4ede-86b4-bdc5e6fe1374">
+				<Properties>
+					<Name>GetUsers</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get users</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/users/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="5a29e29c-1ba5-431b-aea2-8d27990064ed">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetUsersGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="d49e6f76-668a-46e1-8f5e-d64492cd4625">
+				<Properties>
+					<Name>GetStaffsCalendars</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get staffs calendars</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/staffs_calendars/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="9d7a5069-ed09-4f91-af5b-cace5e65746a">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetStaffsCalendarsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="ea4c24e5-5538-4e80-bca2-c1b1e0721ae3">
+				<Properties>
+					<Name>GetStructalUnits</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get structal units</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/structal_units/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="79f8806d-e496-4663-8186-18ec69d350e5">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetStructalUnitsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e907efb3-073b-488c-907c-052bfe26ef3e">
+				<Properties>
+					<Name>GetProducts</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get products</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/products/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="fa41ad0a-43a0-4b0a-b1b6-5386d0765468">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetProductsGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="a3219e2e-0ff5-4e6d-ba36-90c69d0d91ac">
+				<Properties>
+					<Name>GetUnitsOfMeasurement</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get units of measurement</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/units_of_measurement/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="fb28bd80-0c2b-4cd4-8d5b-0fc1e714c59a">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetUnitsOfMeasurementGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="a51ab6b6-87ed-45dc-96a6-e327fbb2845e">
+				<Properties>
+					<Name>GetTasks</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get tasks</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/tasks/{uuid}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="10da1355-20f6-4830-8d45-0f6e770735b1">
+						<Properties>
+							<Name>GetData</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get data</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>GetTasksGetData</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>

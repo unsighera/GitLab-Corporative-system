@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="7c21c815-0cb1-4b21-b6cd-0403abbac282">
+		<Name>СчетНаОплату</Name>
+		<Code/>
+		<Description>Счет на оплату</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="2b714cd2-fd5f-4d95-a00a-42df6d3fe49a">
+		<Name>Событие</Name>
+		<Code/>
+		<Description>Событие</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="a2467bd4-c7b0-4933-8cc4-67cc1930d7d7">
+		<Name>АктВыполненныхРабот</Name>
+		<Code/>
+		<Description>Акт выполненных работ</Description>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+</PredefinedData>

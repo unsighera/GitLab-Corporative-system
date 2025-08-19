@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="12aa27e6-cb02-4ea4-96f0-7aeff54b7f08">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ТекущиеКадровыеДанныеСотрудниковУНФ" category="Record">
+				<xr:TypeId>482326f7-f882-40d1-9c35-9eef57fb563f</xr:TypeId>
+				<xr:ValueId>c74c7a0b-46dc-4b06-9d88-b07544e69789</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ТекущиеКадровыеДанныеСотрудниковУНФ" category="Manager">
+				<xr:TypeId>ab32535d-e997-4d02-8f95-b3c7aae70715</xr:TypeId>
+				<xr:ValueId>fddbdbcb-f0c3-4976-a91b-c6ecd18a5aee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ТекущиеКадровыеДанныеСотрудниковУНФ" category="Selection">
+				<xr:TypeId>735684dd-6460-436e-b236-64a0f381bc1f</xr:TypeId>
+				<xr:ValueId>6380e7d5-7a36-42f2-9a6b-8a7caded330c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ТекущиеКадровыеДанныеСотрудниковУНФ" category="List">
+				<xr:TypeId>9e186539-f932-495b-9ab9-28c60a0dfec1</xr:TypeId>
+				<xr:ValueId>47cd5a8a-4bce-414d-9604-fb975dce6ea9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ТекущиеКадровыеДанныеСотрудниковУНФ" category="RecordSet">
+				<xr:TypeId>1b099cd7-b7bf-4160-939f-a40f892ac901</xr:TypeId>
+				<xr:ValueId>65675a71-1298-45c6-832a-5c6c4380ca7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ТекущиеКадровыеДанныеСотрудниковУНФ" category="RecordKey">
+				<xr:TypeId>5863afd7-2572-4410-8e39-4f6427cc4594</xr:TypeId>
+				<xr:ValueId>933dc13d-fbca-406e-853b-47748f10b636</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ТекущиеКадровыеДанныеСотрудниковУНФ" category="RecordManager">
+				<xr:TypeId>ad21c50e-634a-4306-a638-33581cb74c58</xr:TypeId>
+				<xr:ValueId>4d7bfc17-f60a-4da6-b824-24af61b98442</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТекущиеКадровыеДанныеСотрудниковУНФ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b1a290e4-5e2e-4670-a522-24e6c468b280</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="096779fc-7258-481c-ace9-d197e1c389ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекущаяТарифнаяСтавка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4832bb42-79e9-4f47-aca7-d9e256486c99</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ea5f7b2b-9ef1-42a5-ac12-b9a07175b1a7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекущаяДолжность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>89c69f72-bd5e-472b-90d2-79b71590e8b0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0b0e1e41-a309-4975-ba8c-19d3af48cf9d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтруктурнаяЕдиница</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2224d800-4fce-4584-b716-43408b8a1949</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктурныеЕдиницы</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fe1ed2bd-fc80-412e-974d-f0809c6221e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b86333a4-b8c7-4f49-82bc-618e59d80370</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

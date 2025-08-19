@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="be8d8469-7659-4ce5-8b2c-ee3fc4106e96">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГрафикиРаботы" category="Object">
+				<xr:TypeId>12b85805-5962-4a5a-8969-025a686885a0</xr:TypeId>
+				<xr:ValueId>4af1d68d-2aa6-4a12-a1f4-ed3fa9b81d8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГрафикиРаботы" category="Ref">
+				<xr:TypeId>eaf68023-92a9-478e-8883-68168478cd5a</xr:TypeId>
+				<xr:ValueId>34d410d9-4a05-49ec-a5f0-b9ddad45dbb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГрафикиРаботы" category="Selection">
+				<xr:TypeId>422ff81f-a050-4b55-9231-f725274f694a</xr:TypeId>
+				<xr:ValueId>97ba2552-3a06-4e99-868a-b9123554fc24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГрафикиРаботы" category="List">
+				<xr:TypeId>e34d0d3f-db81-4adc-8ff2-08f54b9b60c5</xr:TypeId>
+				<xr:ValueId>f2d9532f-03bd-48cd-8c0a-18f3d378de47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГрафикиРаботы" category="Manager">
+				<xr:TypeId>b4b6000e-563f-4ca8-a49e-69a777e51dc9</xr:TypeId>
+				<xr:ValueId>3834dd19-c3cd-4064-a29a-81ad1deaee40</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГрафикиРаботы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a4913f68-99a1-4b0b-bb71-125db19d1cb6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

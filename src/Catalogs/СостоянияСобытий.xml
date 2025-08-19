@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="221f4046-3f9e-4376-9bd1-0291f24c3aa9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостоянияСобытий" category="Object">
+				<xr:TypeId>ca25a02f-4d82-4648-966f-4745da3da585</xr:TypeId>
+				<xr:ValueId>73c2dafa-d110-4618-965f-02d804b2c2e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостоянияСобытий" category="Ref">
+				<xr:TypeId>00a38b02-003e-46c0-8e48-40541ef1a5ec</xr:TypeId>
+				<xr:ValueId>8644a85c-81a4-4ebc-a156-b5a91e75e9e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостоянияСобытий" category="Selection">
+				<xr:TypeId>1dd6d9dd-01cc-49e8-8fc1-a89eb010710d</xr:TypeId>
+				<xr:ValueId>7d88d6dc-4d91-4e4f-ae07-ed4d8559a194</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостоянияСобытий" category="List">
+				<xr:TypeId>4d0b2b37-16b3-4ea3-9385-deefa6c1d8ef</xr:TypeId>
+				<xr:ValueId>2f8694dd-ec6c-46dd-aaa7-1a455f3afe28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостоянияСобытий" category="Manager">
+				<xr:TypeId>76e7f416-a9cb-42fb-9ce1-ebcfed83bb40</xr:TypeId>
+				<xr:ValueId>7a4c4a4e-70df-456f-98c7-2afb711666a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСобытий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6b4fc4ba-6f90-4ba6-b287-3349972b4366</ExtendedConfigurationObject>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

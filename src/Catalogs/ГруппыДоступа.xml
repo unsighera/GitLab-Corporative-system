@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="99cad8e1-e167-426d-a72a-e8ceaf22007f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДоступа" category="Object">
+				<xr:TypeId>5c374b9c-e86f-40fc-80b0-caebd88fa2e0</xr:TypeId>
+				<xr:ValueId>0ae303cf-9bcf-4453-82f1-a831e057e55b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДоступа" category="Ref">
+				<xr:TypeId>293ca6e9-d533-4615-a283-2672734c683a</xr:TypeId>
+				<xr:ValueId>20f94096-c802-4950-ac3f-532467cb2b0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДоступа" category="Selection">
+				<xr:TypeId>cab5f1b6-2097-4273-9ba1-f6a73acbb261</xr:TypeId>
+				<xr:ValueId>940e0331-cac5-4a03-bf7e-38c106035e2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДоступа" category="List">
+				<xr:TypeId>be531335-af90-42e2-85d8-0785d5bd3e43</xr:TypeId>
+				<xr:ValueId>cbd15b78-9a87-4a9b-b6a0-ee22a20c4947</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДоступа" category="Manager">
+				<xr:TypeId>cb9ee9a2-7f0d-4f34-af13-0c8dad821ada</xr:TypeId>
+				<xr:ValueId>4d2b6639-29b6-41ae-a134-d9f03db72c5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыДоступа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d0106f3a-8490-4277-a278-75c318ec252c</ExtendedConfigurationObject>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

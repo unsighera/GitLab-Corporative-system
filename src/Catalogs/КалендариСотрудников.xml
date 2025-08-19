@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f9b8f9b4-da77-4356-b24b-2a87ee2b0549">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КалендариСотрудников" category="Object">
+				<xr:TypeId>58973883-ac59-41fd-beaf-9eb1c46773d8</xr:TypeId>
+				<xr:ValueId>3bbdb2eb-bb9e-4fb8-87e3-692cff1eedba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КалендариСотрудников" category="Ref">
+				<xr:TypeId>5235a686-0a0c-41db-ae07-b449997f871a</xr:TypeId>
+				<xr:ValueId>01360f60-d952-4184-b4cf-8dd7f372f159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КалендариСотрудников" category="Selection">
+				<xr:TypeId>11017c5d-6a5c-446e-8fd2-17b95791b50a</xr:TypeId>
+				<xr:ValueId>ed3873bb-c1b1-4463-beb4-3b0a7035b523</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КалендариСотрудников" category="List">
+				<xr:TypeId>dfd611f6-fa97-496a-8edf-fa280559c6a8</xr:TypeId>
+				<xr:ValueId>c5a3e605-ff99-4602-a59a-36a8f8a5bafe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КалендариСотрудников" category="Manager">
+				<xr:TypeId>1c8bad0b-af0e-4e27-bbf8-f44528c96bf3</xr:TypeId>
+				<xr:ValueId>c9db6aa2-5fa9-48e0-9fca-7c324afa3a80</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КалендариСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fc863c6d-8889-47fd-9320-73b659a6ab2c</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="124d2b79-5f4a-458f-93a0-82f36d7ee866">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецКалендаря</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f110cb0-6c7e-4e2c-97a9-d6ad4170606c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1521e2b2-500f-4dd8-9423-8de6e6193b6f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b6accf5c-4a5b-41de-be9f-22d4bf01269c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="59cd23d4-1c75-426e-ab32-adfffed31997">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.КалендариСотрудников.Доступ" category="TabularSection">
+						<xr:TypeId>d9d75840-a390-4d63-8233-4c3a390dd00f</xr:TypeId>
+						<xr:ValueId>acdcf1eb-d404-44f3-b77b-dc5e0f036e1c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.КалендариСотрудников.Доступ" category="TabularSectionRow">
+						<xr:TypeId>0e6c2c86-821f-4ce2-92d7-9b88a528f914</xr:TypeId>
+						<xr:ValueId>e5e270cd-1263-4828-bb5e-8e973ee37a4b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Доступ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>949bfc55-6dae-41db-8763-17899dc7c6d3</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b993bd07-607c-421a-89bf-405b4c345a5e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сотрудник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1c0a6ff9-c271-47f2-bfb0-8caa43420b04</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

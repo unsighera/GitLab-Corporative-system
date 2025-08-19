@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ea1f86d5-85f8-40c7-ad18-e5cd858f7f96">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыНачисленийИУдержаний" category="Object">
+				<xr:TypeId>fbfdda71-4126-4518-9329-176ddcfee7e6</xr:TypeId>
+				<xr:ValueId>4588d710-c408-4ab2-a03c-d557fb44e34e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыНачисленийИУдержаний" category="Ref">
+				<xr:TypeId>4641112e-7cdf-4cfb-a3eb-6bf75e4f9339</xr:TypeId>
+				<xr:ValueId>59b1f1c1-d9c9-4ea5-b6ba-5de8cb60d849</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыНачисленийИУдержаний" category="Selection">
+				<xr:TypeId>4c84a3ae-8aad-4ab1-b127-d0d150d3c1cb</xr:TypeId>
+				<xr:ValueId>372d2eac-cad0-4ed9-878d-2d2a8550b5b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыНачисленийИУдержаний" category="List">
+				<xr:TypeId>8d936a51-d3d9-4179-ba64-fc9914e437ba</xr:TypeId>
+				<xr:ValueId>205de70b-85bc-4f86-9ee9-18168cd288e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыНачисленийИУдержаний" category="Manager">
+				<xr:TypeId>024011f3-e7c4-4ae5-bc34-2dbdcac46e20</xr:TypeId>
+				<xr:ValueId>09a204a4-02d9-4334-85b9-acbc3f88c7c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыНачисленийИУдержаний</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7f7d3a40-902f-4cfb-8dcd-486020ad02ec</ExtendedConfigurationObject>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

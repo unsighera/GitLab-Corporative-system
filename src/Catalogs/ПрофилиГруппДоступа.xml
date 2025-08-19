@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ec49263f-168e-4a07-a108-a02229e5ed42">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрофилиГруппДоступа" category="Object">
+				<xr:TypeId>aec77b7f-9252-49dd-bd05-4212ce8a5a06</xr:TypeId>
+				<xr:ValueId>751445ff-fbf2-4611-ba9d-8bb55bb00eec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрофилиГруппДоступа" category="Ref">
+				<xr:TypeId>f8432e3d-08cc-4714-8670-0d9c95689b0d</xr:TypeId>
+				<xr:ValueId>21a3d99b-0faf-4261-a8fb-8844d81a1e53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрофилиГруппДоступа" category="Selection">
+				<xr:TypeId>d0890c21-2e57-4101-9c7c-da1127e4eb09</xr:TypeId>
+				<xr:ValueId>f6754430-80e4-41ba-a1be-b8fc66d6199e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрофилиГруппДоступа" category="List">
+				<xr:TypeId>db13315a-d5d1-409b-8448-1de403f2691f</xr:TypeId>
+				<xr:ValueId>f6b13874-0c09-42a7-b76d-75d97f1c6540</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрофилиГруппДоступа" category="Manager">
+				<xr:TypeId>e06e7c46-02b2-4cd0-b8db-44dcecd26495</xr:TypeId>
+				<xr:ValueId>cfb1b903-244d-4c4b-9348-3733a505200e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПрофилиГруппДоступа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f31f3dab-5796-47ac-a54d-3081f8cad817</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

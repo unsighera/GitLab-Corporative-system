@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f1edd863-e38f-41f0-9e55-4640e15e0688">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаписиКалендаряСотрудника" category="Object">
+				<xr:TypeId>b906834b-2135-4d9b-98bf-f8b9fcb48e29</xr:TypeId>
+				<xr:ValueId>87599686-37fd-4a43-b305-278ccb51183e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаписиКалендаряСотрудника" category="Ref">
+				<xr:TypeId>aa12f62a-99f7-4be2-bbbb-d65edfb9c7a8</xr:TypeId>
+				<xr:ValueId>0684d70e-c521-495b-8bf1-2346093e739f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаписиКалендаряСотрудника" category="Selection">
+				<xr:TypeId>38179c88-be57-4e7b-b075-16079a90983e</xr:TypeId>
+				<xr:ValueId>e5260f0c-44e2-4b78-b90d-6f1c928e0472</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаписиКалендаряСотрудника" category="List">
+				<xr:TypeId>12a6ce3a-023b-4867-90a4-17fdec1fc4a1</xr:TypeId>
+				<xr:ValueId>c71e0bd0-5ec6-482b-8641-26a72e99e7b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаписиКалендаряСотрудника" category="Manager">
+				<xr:TypeId>44786bc0-7adb-41aa-b078-6f06c3257469</xr:TypeId>
+				<xr:ValueId>fbb18d27-de3f-4e1f-a04a-d2fd8645451a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписиКалендаряСотрудника</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0290aaf3-e853-4ddc-8fba-f026b038349a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="86aed3fd-a4f1-4f89-9994-17a6072c719a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КолонкаКалендаря</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e6c8d6c5-0925-440d-82ae-350409af63a3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КолонкиКалендарейСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="de09f343-5b76-4a9e-96b2-5d63188487e3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Источник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be681a68-a7a2-4224-b511-b7edb1bc61ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИсточникЗаписейКалендаря</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="57ede2ef-7acc-4aa4-ae7a-bf2d0bd30c60">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Завершено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e9f734d7-0f9a-48e9-b1ae-9b7f1f070577</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="b2fcabc6-abbc-49cc-8c5c-7584ad2b4bab">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ВладелецЗначенийКлючейДоступаОбъект" category="DefinedType">
+				<xr:TypeId>5c5cb51a-c361-4dbd-b371-1e863c63ca39</xr:TypeId>
+				<xr:ValueId>f0366414-7810-464c-99d4-82ab886176de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВладелецЗначенийКлючейДоступаОбъект</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f6811ee2-769e-488d-9ca0-70f1fe521ca9</ExtendedConfigurationObject>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:CatalogObject.СтруктурныеЕдиницы</v8:Type>
+					<v8:Type>cfg:CatalogObject.Сотрудники</v8:Type>
+				</xr:ExtendValue>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

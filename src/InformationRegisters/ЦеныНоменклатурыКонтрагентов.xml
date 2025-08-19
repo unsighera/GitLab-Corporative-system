@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="774b74ae-0991-4ce5-83a8-deb4c63c6112">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЦеныНоменклатурыКонтрагентов" category="Record">
+				<xr:TypeId>f4c1fb2b-d181-4f41-9565-4d62f6c74ab4</xr:TypeId>
+				<xr:ValueId>344b4952-8da7-4b15-ba02-88fb0e51a768</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЦеныНоменклатурыКонтрагентов" category="Manager">
+				<xr:TypeId>c55e321a-0f74-4ac7-aa06-1360922af84d</xr:TypeId>
+				<xr:ValueId>76081752-2fd8-421a-967f-7565b866a6cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЦеныНоменклатурыКонтрагентов" category="Selection">
+				<xr:TypeId>9c587910-6b3e-4536-9757-67675008999a</xr:TypeId>
+				<xr:ValueId>ee78d74d-ff4f-4f40-808a-c29cfc1998e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЦеныНоменклатурыКонтрагентов" category="List">
+				<xr:TypeId>fc5f00be-d6f0-443e-a809-78fbdc8c0f07</xr:TypeId>
+				<xr:ValueId>53b30532-160a-4409-8970-5665695d54ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЦеныНоменклатурыКонтрагентов" category="RecordSet">
+				<xr:TypeId>10f8e977-872e-4c3a-8278-4cf90eac8322</xr:TypeId>
+				<xr:ValueId>c9e102df-7e45-4a72-b4e0-181970e5e56f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЦеныНоменклатурыКонтрагентов" category="RecordKey">
+				<xr:TypeId>42de62eb-4e97-4599-906c-715ca3ef0d31</xr:TypeId>
+				<xr:ValueId>fa9c119d-1569-4ead-a19d-82ed1398c0f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЦеныНоменклатурыКонтрагентов" category="RecordManager">
+				<xr:TypeId>cd5b1014-93d8-4141-9959-322f6569ec58</xr:TypeId>
+				<xr:ValueId>c9bdbb2b-aaa9-4abf-8868-d900970171af</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЦеныНоменклатурыКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cf3eba13-9405-45d9-850c-b2ae72ca8084</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="c9aa758a-9def-4cb2-8f4f-7316b5854db8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Цена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94ab75bc-6418-4dd5-b2ab-eb515a92cd00</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5af09d03-215e-48b6-83c1-45260213e62d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаИзмерения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9feb4832-177b-4a3d-9e7a-e1e1fa3d5844</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2f6d65c9-4124-4ac2-80ea-4911200a2d8e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидЦенКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10e45426-ae15-4720-ad46-6db7ffc033cb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦенКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4c7529a1-1b9b-44b8-8d3b-bb225bc6c61d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>900dfc56-4990-4e2c-91dd-672c5d7bc4d1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

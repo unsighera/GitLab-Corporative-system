@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСформироватьДокументы" id="37">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.СформироватьДокументы</CommandName>
+				<ExtendedTooltip name="ФормаСформироватьДокументыРасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ФормаПредпросмотр" id="39">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Предпросмотр</CommandName>
+				<ExtendedTooltip name="ФормаПредпросмотрРасширеннаяПодсказка" id="40"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОтбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Width>40</Width>
+			<HorizontalStretch>false</HorizontalStretch>
+			<Group>Vertical</Group>
+			<ChildrenAlign>ItemsRightTitlesLeft</ChildrenAlign>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<InputField name="ПериодФормирования" id="3">
+					<DataPath>ПериодФормирования</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Width>20</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<BackColor>style:ReportHeaderBackColor</BackColor>
+					<ContextMenu name="ПериодФормированияКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ПериодФормированияРасширеннаяПодсказка" id="5"/>
+					<Events>
+						<Event name="OnChange">ПриИзмененииОтборов</Event>
+					</Events>
+				</InputField>
+				<InputField name="Контрагент" id="6">
+					<DataPath>Контрагент</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Width>18</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<BackColor>style:ReportHeaderBackColor</BackColor>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="8"/>
+					<Events>
+						<Event name="OnChange">ПриИзмененииОтборов</Event>
+					</Events>
+				</InputField>
+				<InputField name="Проект" id="9">
+					<DataPath>Проект</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<Width>18</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<BackColor>style:ReportHeaderBackColor</BackColor>
+					<ContextMenu name="ПроектКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="11"/>
+					<Events>
+						<Event name="OnChange">ПриИзмененииОтборов</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТЗДокументов" id="12">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТЗДокументов</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЗДокументовКонтекстноеМеню" id="13"/>
+			<AutoCommandBar name="ТЗДокументовКоманднаяПанель" id="14"/>
+			<ExtendedTooltip name="ТЗДокументовРасширеннаяПодсказка" id="15"/>
+			<SearchStringAddition name="ТЗДокументовСтрокаПоиска" id="16">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовСтрокаПоискаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ТЗДокументовСтрокаПоискаРасширеннаяПодсказка" id="18"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЗДокументовСостояниеПросмотра" id="19">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовСостояниеПросмотраКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ТЗДокументовСостояниеПросмотраРасширеннаяПодсказка" id="21"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЗДокументовУправлениеПоиском" id="22">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовУправлениеПоискомКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="ТЗДокументовУправлениеПоискомРасширеннаяПодсказка" id="24"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ТЗДокументовИспользовать" id="34">
+					<DataPath>ТЗДокументов.Использовать</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТЗДокументовИспользоватьКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ТЗДокументовИспользоватьРасширеннаяПодсказка" id="36"/>
+				</CheckBoxField>
+				<InputField name="ТЗДокументовКонтрагент" id="25">
+					<DataPath>ТЗДокументов.Контрагент</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЗДокументовКонтрагентКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ТЗДокументовКонтрагентРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ТЗДокументовПроект" id="28">
+					<DataPath>ТЗДокументов.Проект</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЗДокументовПроектКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ТЗДокументовПроектРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<InputField name="ТЗДокументовЗаданиеНаРаботу" id="31">
+					<DataPath>ТЗДокументов.ЗаданиеНаРаботу</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТЗДокументовЗаданиеНаРаботуКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ТЗДокументовЗаданиеНаРаботуРасширеннаяПодсказка" id="33"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Пр_ФормированиеПакетаДокументов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТЗДокументов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТЗДокументов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Контрагент" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Проект" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проект</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗаданиеНаРаботу" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задание на работу</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаданиеНаРаботу</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Использовать" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Дата" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПериодФормирования" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период формирования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Контрагент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Проект" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьДокументы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать документы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать документы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьДокументы</Action>
+		</Command>
+		<Command name="Предпросмотр" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предпросмотр</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предпросмотр</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Предпросмотр</Action>
+		</Command>
+	</Commands>
+</Form>
