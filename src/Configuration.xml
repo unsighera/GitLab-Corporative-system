@@ -212,6 +212,7 @@
 			<Catalog>КатегорииНоменклатуры</Catalog>
 			<Catalog>НаправленияДеятельности</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
+			<Catalog>ТестовыйСправочник</Catalog>
 			<Document>ЗаданиеНаРаботу</Document>
 			<Document>Событие</Document>
 			<Document>СчетНаОплату</Document>
