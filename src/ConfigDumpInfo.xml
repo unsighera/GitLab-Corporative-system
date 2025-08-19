@@ -457,7 +457,7 @@
 		<Metadata name="StyleItem.ЦветТекстаПоложительногоЗначения" id="62cd7a0e-809a-4eb4-8d35-8eb5a3ac8639" configVersion="6f66020702568733ac3607c72d7999550d3ec07f"/>
 		<Metadata name="StyleItem.ЦветТекстаПравойПанелиОтборов" id="8a24d331-4091-421c-b324-07eed8ea097b" configVersion="25cc525ae5446e59db9a71d17d7e5cb3f0394438"/>
 		<Metadata name="StyleItem.ШрифтПравойПанелиОтборов" id="54a50720-c73f-45ea-871b-63b56738ce21" configVersion="5c42a2bdbeab9fa72e0564bcf2c57d481b0acdd8"/>
-		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709" configVersion="4de4fbf0a368fd1f62e63966674497eff1be074a"/>
+		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709" configVersion="7995d39a49d81b465047efc5348bc2a768f2f52c"/>
 		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab.CommandInterface" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709.1" configVersion="74faf4ca7dbe1a498b7f2d6d865d8144c3a256a0"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
