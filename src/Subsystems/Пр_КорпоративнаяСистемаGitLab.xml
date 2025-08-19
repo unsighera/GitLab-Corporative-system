@@ -169,7 +169,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеЕжедневныйОпрос</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеЕжедневныйОпрос</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Пр_MobileApplic</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТестовыйСправочник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2e010d23-860d-4864-8668-64820ec9bd1f</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

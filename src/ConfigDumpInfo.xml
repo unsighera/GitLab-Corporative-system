@@ -72,7 +72,6 @@
 			<Metadata name="Catalog.СтруктурныеЕдиницы.Attribute.РозничныйВидЦен" id="c33d9309-27d7-49e7-b8b0-081eb8a9be1c"/>
 			<Metadata name="Catalog.СтруктурныеЕдиницы.Attribute.Организация" id="c79b3886-572c-4a1e-8666-99c5dc4a6833"/>
 		</Metadata>
-		<Metadata name="Catalog.ТестовыйСправочник" id="2e010d23-860d-4864-8668-64820ec9bd1f" configVersion="e3d6aa2fa16e39bcfe8343d209ecfbd1f6a43028"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="a602b819-7764-43ec-bb6d-b9e117970c21" configVersion="c5a38ca963082ee00db7cd50017f56b3a6bf9630">
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Недействителен" id="f34df122-01a1-4554-a42c-c7ef0f0480af"/>
 		</Metadata>
@@ -133,7 +132,7 @@
 		<Metadata name="CommonPicture.СтрелкаВлевоСплошная" id="ca880bf7-b581-4073-8fce-78bd683b7cd3" configVersion="c2853fc6bf948c96d3f4156757e9a444fb16564f"/>
 		<Metadata name="CommonPicture.СтрелкаВправоСплошная" id="abfbf2b3-a027-442f-b4f3-1d0e60dc7668" configVersion="870769decc9dbf9e824592c83fffc5129654ce6c"/>
 		<Metadata name="CommonPicture.Шестеренка" id="74266477-e3dc-4164-9799-a014a153ba80" configVersion="2b196d6474651ec0e0fc55143eb516b934367f9d"/>
-		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="e154224bb955044ab228f6902417d9957e48b3fe"/>
+		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="e53314ed6fba514501729a7c4956680abaaf59ab"/>
 		<Metadata name="Configuration.GitLabКорп.ManagedApplicationModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.6" configVersion="70f87e61421eae6e6d9593e01c6a892e64d643ad"/>
 		<Metadata name="Configuration.GitLabКорп.SessionModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.7" configVersion="290e45ba2b82225cd8511dfbe262e493054acb10"/>
 		<Metadata name="Constant.ВалютаУчета" id="8df8ff83-901d-44cc-967d-dc34f66fe307" configVersion="10548d893b851cf934820a1b9abb18b091d54894"/>
