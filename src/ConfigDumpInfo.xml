@@ -113,7 +113,7 @@
 		<Metadata name="CommonModule.Пр_ОбменGitLabКлиент" id="b805dba4-f788-4195-b5ae-d9b66cee5da8" configVersion="c507789d68b6f352fbc80a6a47e377fa54999209"/>
 		<Metadata name="CommonModule.Пр_ОбменGitLabКлиент.Module" id="b805dba4-f788-4195-b5ae-d9b66cee5da8.0" configVersion="f1c09b966dff83852c7180418e50246ddd96d25a"/>
 		<Metadata name="CommonModule.Пр_ОбменGitLabСервер" id="94c02143-7c58-4b1b-bf82-51566df3e568" configVersion="ad4f70091ce6f00a9d072d4d2f12eee49991ef13"/>
-		<Metadata name="CommonModule.Пр_ОбменGitLabСервер.Module" id="94c02143-7c58-4b1b-bf82-51566df3e568.0" configVersion="621d037e40db11b0f34eb2148d7135de378f624f"/>
+		<Metadata name="CommonModule.Пр_ОбменGitLabСервер.Module" id="94c02143-7c58-4b1b-bf82-51566df3e568.0" configVersion="38a0d35bdcf638c8db44f2d8179763edb57646e9"/>
 		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый" id="a9e4d659-2f2c-4be5-8bcb-fe8c621f64a5" configVersion="7ef94adb53bca0c62f2758c35b81007f7804f0ab"/>
 		<Metadata name="CommonModule.УправлениеДоступомПереопределяемый.Module" id="a9e4d659-2f2c-4be5-8bcb-fe8c621f64a5.0" configVersion="1108c97a760b74a857ffec982365206f49338de5"/>
 		<Metadata name="CommonModule.УправлениеДоступомУНФ" id="000bda7b-11be-4eec-9ece-c3524901807d" configVersion="58ce7d94f165cad8ec4c0bf6e6d9491f9031dc3a"/>
