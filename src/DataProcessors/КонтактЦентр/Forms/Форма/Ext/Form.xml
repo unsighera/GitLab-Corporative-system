@@ -11,6 +11,10 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen" callType="After">Пр_ПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="After">Пр_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаКоманднаяПанель" id="105">
 			<Title>

@@ -150,6 +150,8 @@
 			<CommonModule>Пр_КорпоративнаяСистемаGitLabВстраиваниеУНФВызовСервера</CommonModule>
 			<CommonModule>УправлениеДоступомПереопределяемый</CommonModule>
 			<CommonModule>УправлениеДоступомУНФ</CommonModule>
+			<CommonModule>Пр_УведомленияКалендарейСервер</CommonModule>
+			<CommonModule>Пр_УведомленияКаледнарейВызовСервераПривилегированный</CommonModule>
 			<ExchangePlan>Пр_ОбменGitLab</ExchangePlan>
 			<HTTPService>Пр_GitLabWebhooks</HTTPService>
 			<HTTPService>Пр_MobileApplic</HTTPService>
@@ -227,11 +229,13 @@
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ТипыСчетов</Enum>
 			<Enum>БазыРаспределенияРасходов</Enum>
+			<Enum>ВариантыВажностиЗадачи</Enum>
 			<Report>Пр_ПланФактовоеОтклонениеЗаданий</Report>
 			<Report>Пр_АнализПрибыльности</Report>
 			<DataProcessor>КонтактЦентр</DataProcessor>
 			<DataProcessor>Пр_ОтладкаИнтеграции</DataProcessor>
 			<DataProcessor>Пр_ФормированиеПакетаДокументов</DataProcessor>
+			<DataProcessor>ТекущиеДела</DataProcessor>
 			<InformationRegister>СотрудникиПользователя</InformationRegister>
 			<InformationRegister>Пр_ЛимитыПоКолонкам</InformationRegister>
 			<InformationRegister>Пр_ПланФактовоеОтклонение</InformationRegister>
@@ -240,6 +244,8 @@
 			<InformationRegister>ТекущиеКадровыеДанныеСотрудниковУНФ</InformationRegister>
 			<InformationRegister>Пр_НеотправленныеСообщенияGitLab</InformationRegister>
 			<InformationRegister>Пр_ЕжедневныйОпрос</InformationRegister>
+			<InformationRegister>Пр_НастройкиУведомленийКалендарей</InformationRegister>
+			<InformationRegister>Пр_ОповещенияПользователей</InformationRegister>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>

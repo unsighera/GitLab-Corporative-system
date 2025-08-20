@@ -169,7 +169,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ЧтениеЕжедневныйОпрос</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеЕжедневныйОпрос</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Пр_MobileApplic</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2e010d23-860d-4864-8668-64820ec9bd1f</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_НастройкиУведомленийКалендарей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_УведомленияКалендарейСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_УведомленияКаледнарейВызовСервераПривилегированный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ea3a99da-61df-4c58-8d81-27760e0c410f</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ОповещенияПользователей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

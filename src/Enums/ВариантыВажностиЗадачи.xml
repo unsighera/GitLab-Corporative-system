@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d2cee375-8aaf-4b39-9d46-8e122e2a97ab">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыВажностиЗадачи" category="Ref">
+				<xr:TypeId>0513bdfe-c9c7-4cd5-b8ca-34da88f729e4</xr:TypeId>
+				<xr:ValueId>866efc94-6f3c-4d07-ad8e-02994c6633eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыВажностиЗадачи" category="Manager">
+				<xr:TypeId>2c734df7-2f70-41a2-9957-c1ce0903b080</xr:TypeId>
+				<xr:ValueId>48ea9e70-3587-420f-bdd6-9cfcc548e99e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыВажностиЗадачи" category="List">
+				<xr:TypeId>1f01bcc4-5953-4979-acf4-32a3e445a69a</xr:TypeId>
+				<xr:ValueId>75a65ea4-feb5-4df4-92b8-d969ece034b0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыВажностиЗадачи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c39750ca-e33f-40c2-b830-119423d9a2ae</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e97db463-8498-4e4a-a10d-4edf91ff6a42">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Высокая</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9372ff6b-27b6-48f3-a2a2-762e7c485766</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
