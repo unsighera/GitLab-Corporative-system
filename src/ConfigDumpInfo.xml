@@ -200,8 +200,8 @@
 		<Metadata name="DataProcessor.Пр_ОтладкаИнтеграции.Form.Форма.Form" id="bc8075a8-8ac5-4319-a7ee-4715f7939e11.0" configVersion="1b9e7aefc1052f95404adca626860a5c592a3498"/>
 		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов" id="e277642a-c1f8-4223-bb26-7732cd6b0681" configVersion="222db7a0dc047fee04331e14e88c99e3e10c18c5"/>
 		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.Form.Форма" id="12ba88ac-49d4-4e47-8bf0-7cfaca946de4" configVersion="2c8dd5cf862b8c7e4da6301de3e428358fd4aa0b"/>
-		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.Form.Форма.Form" id="12ba88ac-49d4-4e47-8bf0-7cfaca946de4.0" configVersion="17952d5411445ec282c902e075324a4bc399027e"/>
-		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.ObjectModule" id="e277642a-c1f8-4223-bb26-7732cd6b0681.0" configVersion="1864211a5c618eba2e3871d2445e15ff4acbf231"/>
+		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.Form.Форма.Form" id="12ba88ac-49d4-4e47-8bf0-7cfaca946de4.0" configVersion="010927d42bd433a5d1b74e888d85c5b2d1efcee1"/>
+		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.ObjectModule" id="e277642a-c1f8-4223-bb26-7732cd6b0681.0" configVersion="62a7498abcf07342c41b254f97b42fd0e5b34609"/>
 		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.Template.Пр_ПФ_MXL_ПредпросмотрСформированныхДокументов" id="89898cda-6af9-4cca-84e7-9142a3e978a5" configVersion="1f1430eaca761f0d39ffec1a7b82097886a4a0b2"/>
 		<Metadata name="DataProcessor.Пр_ФормированиеПакетаДокументов.Template.Пр_ПФ_MXL_ПредпросмотрСформированныхДокументов.Template" id="89898cda-6af9-4cca-84e7-9142a3e978a5.0" configVersion="8ace2e1f1bc713073a1cfdfc498a99f452de9035"/>
 		<Metadata name="DataProcessor.ТекущиеДела" id="bedcda3b-d00f-48b6-9bf7-f61075821687" configVersion="8ac268312fbaaf4a06507b2df02bd06bcf37a1ea"/>
