@@ -155,7 +155,7 @@
 		<Metadata name="CommonModule.Пр_МодификацияФормСервер" id="e588e376-7407-4c42-bd0c-a5f678beda3d" configVersion="806ae54fe8443025dd2dd5f133b38b3e2c4469f5"/>
 		<Metadata name="CommonModule.Пр_МодификацияФормСервер.Module" id="e588e376-7407-4c42-bd0c-a5f678beda3d.0" configVersion="bb9599faf60396b6ba578ae11f39e17f92499633"/>
 		<Metadata name="CommonModule.Пр_НачислениеЗарплатыСервер" id="de86b7fa-376b-4eb2-a3f5-e6edd1fc1213" configVersion="7fa8c57f501b1e6ab5c553f90a018874bf8632b5"/>
-		<Metadata name="CommonModule.Пр_НачислениеЗарплатыСервер.Module" id="de86b7fa-376b-4eb2-a3f5-e6edd1fc1213.0" configVersion="529ab95e861554b8b15097dda7ca895fa53b7bdc"/>
+		<Metadata name="CommonModule.Пр_НачислениеЗарплатыСервер.Module" id="de86b7fa-376b-4eb2-a3f5-e6edd1fc1213.0" configVersion="997b07de3cf1c86747d4e3f184f80deec7e8b18c"/>
 		<Metadata name="CommonModule.Пр_ОбменGitLabВызовСервера" id="45aa338f-75b1-4c8f-a231-92eeea4e51d1" configVersion="b797d619e6340a93c1b27c5e66be0aa0ee9453b3"/>
 		<Metadata name="CommonModule.Пр_ОбменGitLabВызовСервера.Module" id="45aa338f-75b1-4c8f-a231-92eeea4e51d1.0" configVersion="77cb8777302d9d9b14ee0b69008a1d07d737d1e1"/>
 		<Metadata name="CommonModule.Пр_ОбменGitLabКлиент" id="b805dba4-f788-4195-b5ae-d9b66cee5da8" configVersion="c507789d68b6f352fbc80a6a47e377fa54999209"/>
