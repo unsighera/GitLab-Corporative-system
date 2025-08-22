@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c266e39a-30d0-4674-b79e-a87298a034d2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЗаказовПокупателей" category="Object">
+				<xr:TypeId>d2d00777-ee61-4468-8f2b-6df30e7cb9bf</xr:TypeId>
+				<xr:ValueId>5590be18-bdf7-43fb-a43f-e800420449ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЗаказовПокупателей" category="Ref">
+				<xr:TypeId>c3b74fe5-f04d-49d9-b8b5-2cc34823e66e</xr:TypeId>
+				<xr:ValueId>0dc47674-ac35-4039-b775-7e13f58f58bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЗаказовПокупателей" category="Selection">
+				<xr:TypeId>eb70536d-fd55-4886-97bc-332c2a901c9f</xr:TypeId>
+				<xr:ValueId>8d7ad166-7c86-4273-9c25-c70526c1422a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЗаказовПокупателей" category="List">
+				<xr:TypeId>9f54cff4-d172-49de-b30b-d282193c0879</xr:TypeId>
+				<xr:ValueId>5434aee3-ba14-46a6-8e38-30c6b64d8267</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЗаказовПокупателей" category="Manager">
+				<xr:TypeId>16ae977c-2c53-4eff-a611-5441d5239189</xr:TypeId>
+				<xr:ValueId>82b36a93-e3c6-448f-b3ea-c1af0d65fc8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыЗаказовПокупателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>90c54cdb-3887-427a-bb26-a00e68a7f036</ExtendedConfigurationObject>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

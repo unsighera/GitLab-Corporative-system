@@ -152,9 +152,12 @@
 			<CommonModule>УправлениеДоступомУНФ</CommonModule>
 			<CommonModule>Пр_УведомленияКалендарейСервер</CommonModule>
 			<CommonModule>Пр_УведомленияКаледнарейВызовСервераПривилегированный</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
 			<ExchangePlan>Пр_ОбменGitLab</ExchangePlan>
 			<HTTPService>Пр_GitLabWebhooks</HTTPService>
 			<HTTPService>Пр_MobileApplic</HTTPService>
+			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</EventSubscription>
+			<EventSubscription>ЗаписатьВерсиюДокумента</EventSubscription>
 			<ScheduledJob>Пр_ОтправкаОтложенныхIssue</ScheduledJob>
 			<ScheduledJob>Пр_ОбновлениеВсехIssue</ScheduledJob>
 			<ScheduledJob>Пр_ОбработкаБотов</ScheduledJob>
@@ -168,6 +171,11 @@
 			<DefinedType>ЗначениеДоступаОбъект</DefinedType>
 			<DefinedType>ВладелецЗначенийКлючейДоступаОбъект</DefinedType>
 			<DefinedType>ПолеРегистраКлючейДоступаКРегистрам</DefinedType>
+			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
+			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
+			<DefinedType>ПрисоединенныйФайл</DefinedType>
+			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
+			<DefinedType>ВерсионируемыеДанные</DefinedType>
 			<Bot>Пр_БотGitLab</Bot>
 			<CommonCommand>Пр_ПланФактовыйАнализ</CommonCommand>
 			<CommonCommand>Пр_ПровестиОпрос</CommonCommand>
@@ -214,12 +222,19 @@
 			<Catalog>КатегорииНоменклатуры</Catalog>
 			<Catalog>НаправленияДеятельности</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
+			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
+			<Catalog>ТомаХраненияФайлов</Catalog>
+			<Catalog>Пр_ПравилаРаспределенияПрисоединенныеФайлы</Catalog>
+			<Catalog>ВидыЗаказовПокупателей</Catalog>
+			<Catalog>СостоянияЗаказовПокупателей</Catalog>
 			<Document>ЗаданиеНаРаботу</Document>
 			<Document>Событие</Document>
 			<Document>СчетНаОплату</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>НачислениеЗарплатыУНФ</Document>
 			<Document>Пр_ОтчетЗаДень</Document>
+			<Document>Пр_ПравилаРаспределения</Document>
+			<Document>ЗаказПокупателя</Document>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ВариантыВажности</Enum>
 			<Enum>ТипыСобытий</Enum>
@@ -230,6 +245,8 @@
 			<Enum>ТипыСчетов</Enum>
 			<Enum>БазыРаспределенияРасходов</Enum>
 			<Enum>ВариантыВажностиЗадачи</Enum>
+			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
+			<Enum>ТипыХраненияФайлов</Enum>
 			<Report>Пр_ПланФактовоеОтклонениеЗаданий</Report>
 			<Report>Пр_АнализПрибыльности</Report>
 			<DataProcessor>КонтактЦентр</DataProcessor>
@@ -246,6 +263,7 @@
 			<InformationRegister>Пр_ЕжедневныйОпрос</InformationRegister>
 			<InformationRegister>Пр_НастройкиУведомленийКалендарей</InformationRegister>
 			<InformationRegister>Пр_ОповещенияПользователей</InformationRegister>
+			<InformationRegister>Пр_ДействующееРаспределение</InformationRegister>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>

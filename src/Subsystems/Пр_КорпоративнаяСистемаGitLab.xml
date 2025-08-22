@@ -172,8 +172,34 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_НастройкиУведомленийКалендарей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_УведомленияКалендарейСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Пр_УведомленияКаледнарейВызовСервераПривилегированный</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ea3a99da-61df-4c58-8d81-27760e0c410f</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ОповещенияПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Пр_ПравилаРаспределения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ДействующееРаспределение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеДоступомУНФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Пр_ДобавлениеИзменениеУправленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ЗаписатьВерсиюДокумента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ЗначениеДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ЗначениеДоступаОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецЗначенийКлючейДоступаОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ПолеРегистраКлючейДоступаКРегистрам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецПрисоединенныхФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВладелецПрисоединенныхФайловОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ПрисоединенныйФайл</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ПрисоединенныйФайлОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВерсионируемыеДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрофилиГруппДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УчетныеЗаписиСинхронизацииФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТомаХраненияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пр_ПравилаРаспределенияПрисоединенныеФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПокупателя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыВажностиЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыИзвлеченияТекстаФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыХраненияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТекущиеДела</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

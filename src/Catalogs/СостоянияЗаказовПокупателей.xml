@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5dfbcc8c-1ffe-4ac9-9636-13aecc207d34">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостоянияЗаказовПокупателей" category="Object">
+				<xr:TypeId>1f6b0759-5137-4c85-ace9-417692346444</xr:TypeId>
+				<xr:ValueId>3d577df8-78d3-4c50-a8d3-ef0c451c266e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостоянияЗаказовПокупателей" category="Ref">
+				<xr:TypeId>eb52de7f-cac9-48f6-94c4-71bf63d06098</xr:TypeId>
+				<xr:ValueId>83692ab2-ed72-4274-bdc1-2190ecd1bddc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостоянияЗаказовПокупателей" category="Selection">
+				<xr:TypeId>295ce486-4f6f-4869-ba55-de6cda97b0e1</xr:TypeId>
+				<xr:ValueId>17d063f6-c9bb-4cbf-8ccb-8f6e0c7a1fad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостоянияЗаказовПокупателей" category="List">
+				<xr:TypeId>18f3ad79-41ce-4015-b9dd-3e68ead3dda6</xr:TypeId>
+				<xr:ValueId>121ab332-cdc3-4f29-9ca5-bcf36fff7e3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостоянияЗаказовПокупателей" category="Manager">
+				<xr:TypeId>833a4b84-cf8d-4574-8258-c7248cea3aee</xr:TypeId>
+				<xr:ValueId>90c04656-58f2-4550-8663-9d82cf53cc7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовПокупателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a2b1dc61-98ce-4fe4-ae3d-fabbd7218633</ExtendedConfigurationObject>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
