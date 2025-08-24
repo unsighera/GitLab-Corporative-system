@@ -200,6 +200,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыИзвлеченияТекстаФайлов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыХраненияФайлов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТекущиеДела</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Пр_ПлановаяВыработкаЧасов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Пр_ПланФактоваяВыработка</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

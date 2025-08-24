@@ -144,6 +144,8 @@
 		<Metadata name="CommonCommand.Пр_ПровестиОпрос.CommandModule" id="6ea0b7d9-90c9-4229-ad59-0c2378f1bed6.2" configVersion="cbf07c1fb101513a40678af1dee3ed86f860045b"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="af2b6bb4-1470-4a95-b041-aae9ed5eca74" configVersion="eea7f1776cd85d7587cd8e5e3184d8469dfc6918"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="af2b6bb4-1470-4a95-b041-aae9ed5eca74.0" configVersion="3124c719540e048016050eaedbf0a7be7912d8e6"/>
+		<Metadata name="CommonModule.ПодключаемыеПроцедуры" id="67700a46-2c98-4702-a9ad-c777b66ab041" configVersion="d13cfae34343ec32b8bdc03a537a54c8d1fee1ad"/>
+		<Metadata name="CommonModule.ПодключаемыеПроцедуры.Module" id="67700a46-2c98-4702-a9ad-c777b66ab041.0" configVersion="93a564e7eac994bd62df6642e817cd46db0273b6"/>
 		<Metadata name="CommonModule.Пр_БотыВызовСервера" id="461a30c9-d4fe-4c2b-8407-13c782942d26" configVersion="2d407dd78fb107d623ec2796063361a193351e6f"/>
 		<Metadata name="CommonModule.Пр_БотыВызовСервера.Module" id="461a30c9-d4fe-4c2b-8407-13c782942d26.0" configVersion="0283add977d8c50b366ee40b013d9e31a981b031"/>
 		<Metadata name="CommonModule.Пр_БотыСервер" id="d58386af-b514-4351-a75b-cb6fa5fcde20" configVersion="e9893e6bfd9c3d366a28c477c413623e5419d3f2"/>
@@ -184,7 +186,7 @@
 		<Metadata name="CommonPicture.СтрелкаВлевоСплошная" id="ca880bf7-b581-4073-8fce-78bd683b7cd3" configVersion="c2853fc6bf948c96d3f4156757e9a444fb16564f"/>
 		<Metadata name="CommonPicture.СтрелкаВправоСплошная" id="abfbf2b3-a027-442f-b4f3-1d0e60dc7668" configVersion="870769decc9dbf9e824592c83fffc5129654ce6c"/>
 		<Metadata name="CommonPicture.Шестеренка" id="74266477-e3dc-4164-9799-a014a153ba80" configVersion="2b196d6474651ec0e0fc55143eb516b934367f9d"/>
-		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="b58c21c79a53ee2419384c108b33e60c86303611"/>
+		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="2de5237f7d2857f590bf00eb88a92219fff49609"/>
 		<Metadata name="Configuration.GitLabКорп.ManagedApplicationModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.6" configVersion="70f87e61421eae6e6d9593e01c6a892e64d643ad"/>
 		<Metadata name="Configuration.GitLabКорп.SessionModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.7" configVersion="290e45ba2b82225cd8511dfbe262e493054acb10"/>
 		<Metadata name="Constant.ВалютаУчета" id="8df8ff83-901d-44cc-967d-dc34f66fe307" configVersion="10548d893b851cf934820a1b9abb18b091d54894"/>
@@ -276,6 +278,17 @@
 		<Metadata name="Document.Пр_ОтчетЗаДень.Form.ФормаСписка" id="3e952216-e56b-4a7e-af59-037b517da9ec" configVersion="a00a024d5c3aec2354633ed6974d3515a8b27a53"/>
 		<Metadata name="Document.Пр_ОтчетЗаДень.Form.ФормаСписка.Form" id="3e952216-e56b-4a7e-af59-037b517da9ec.0" configVersion="4f4829477141f1cc1af89ee364bb3afa01d8c06b"/>
 		<Metadata name="Document.Пр_ОтчетЗаДень.ManagerModule" id="5a5dff67-3c8e-446c-b10d-fccc8f244c70.2" configVersion="531156f348c7ba2e2d3982acce5e4743911e224f"/>
+		<Metadata name="Document.Пр_ПлановаяВыработкаЧасов" id="ba2947ad-3ed6-4302-9bbf-ff22d33b80b7" configVersion="6819ae04327052935ed3b177a8a0b4b71350b43c">
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.TabularSection.ПлановыеЗначения.Attribute.КоличествоЧасов" id="759c7b01-3a1c-491c-a562-22ee0eb203b1"/>
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.TabularSection.ПлановыеЗначения" id="7d4a2193-a4cf-4f25-aa1c-691bff5ad7b3"/>
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.Attribute.Проект" id="8a006ad9-a279-493c-9c62-78f5250fb35b"/>
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.Attribute.НачалоПериода" id="8cbb5ec0-8686-470a-af17-a2318f90e3d4"/>
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.TabularSection.ПлановыеЗначения.Attribute.Период" id="de0d1f60-5d2e-415f-8305-9a76d4a86843"/>
+			<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.Attribute.КонецПериода" id="ffc2a238-a98f-4d94-b80d-d57cf4f73951"/>
+		</Metadata>
+		<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.Form.ФормаДокумента" id="c369ac40-4c0d-49e9-8ef3-7fb89a10520a" configVersion="c5d10959b9ace652e95fc7f3e582a0545fd6ce06"/>
+		<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.Form.ФормаДокумента.Form" id="c369ac40-4c0d-49e9-8ef3-7fb89a10520a.0" configVersion="24c5b72592bf2d3a524b31b2a026825bc2635f5e"/>
+		<Metadata name="Document.Пр_ПлановаяВыработкаЧасов.ObjectModule" id="ba2947ad-3ed6-4302-9bbf-ff22d33b80b7.0" configVersion="842a0b9aaebf1052cfc698e72cd513a150d987b2"/>
 		<Metadata name="Document.Пр_ПравилаРаспределения" id="12b6f6dc-b1f8-4300-a1e1-275100f7e7f1" configVersion="c12637d6d9d2560796f7068d1e5274f140a04537">
 			<Metadata name="Document.Пр_ПравилаРаспределения.Attribute.Комментарий" id="334543ed-8392-48c8-8f9f-ad6a54f603c0"/>
 			<Metadata name="Document.Пр_ПравилаРаспределения.Attribute.Автор" id="4152a1ae-16f4-4a46-be17-7385789b43b4"/>
@@ -444,6 +457,11 @@
 			<Metadata name="InformationRegister.Пр_ОповещенияПользователей.Resource.ТекстСообщения" id="f891edf7-09ff-4811-8675-f01e47c29f45"/>
 		</Metadata>
 		<Metadata name="InformationRegister.Пр_ОповещенияПользователей.ManagerModule" id="1159f1cc-9768-48f4-92aa-6039061e78a5.2" configVersion="d0e5718db32ec9840f39edae9cd921e6b967b1e4"/>
+		<Metadata name="InformationRegister.Пр_ПланФактоваяВыработка" id="b09a0d19-a579-4327-9594-b951d7694235" configVersion="d3e7311e5a9a96cc7747ca1b89cd2580f467a8c6">
+			<Metadata name="InformationRegister.Пр_ПланФактоваяВыработка.Resource.КоличествоЧасов" id="24446ef1-b21f-4d37-9245-4e2209f126a0"/>
+			<Metadata name="InformationRegister.Пр_ПланФактоваяВыработка.Dimension.Проект" id="5eb4732f-2cbf-4f74-bb02-9b1ba3dc2df8"/>
+			<Metadata name="InformationRegister.Пр_ПланФактоваяВыработка.Dimension.Месяц" id="80f970d4-9f5e-4409-9dcd-23baaacac327"/>
+		</Metadata>
 		<Metadata name="InformationRegister.Пр_ПланФактовоеОтклонение" id="b8074fe0-98e1-420c-af46-9cc18460e725" configVersion="8b37775646452f01895845f9bac0daade4d92000">
 			<Metadata name="InformationRegister.Пр_ПланФактовоеОтклонение.Resource.ФактическиеЗатраты" id="1aeb6c99-7dca-4215-adff-df7803b6bc62"/>
 			<Metadata name="InformationRegister.Пр_ПланФактовоеОтклонение.Dimension.Контрагент" id="65211c99-e1e8-4a5e-b4ad-cb230278ce56"/>
@@ -560,7 +578,7 @@
 		<Metadata name="StyleItem.ЦветТекстаПоложительногоЗначения" id="62cd7a0e-809a-4eb4-8d35-8eb5a3ac8639" configVersion="6f66020702568733ac3607c72d7999550d3ec07f"/>
 		<Metadata name="StyleItem.ЦветТекстаПравойПанелиОтборов" id="8a24d331-4091-421c-b324-07eed8ea097b" configVersion="25cc525ae5446e59db9a71d17d7e5cb3f0394438"/>
 		<Metadata name="StyleItem.ШрифтПравойПанелиОтборов" id="54a50720-c73f-45ea-871b-63b56738ce21" configVersion="5c42a2bdbeab9fa72e0564bcf2c57d481b0acdd8"/>
-		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709" configVersion="a64bead3fa85d1e31ac820765dbf912482a8e1e5"/>
-		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab.CommandInterface" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709.1" configVersion="3691064bd6e4aadbca5ec5113e2e8caa1c058940"/>
+		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709" configVersion="69449e51966359db26434ed984ef86a9ad3b3631"/>
+		<Metadata name="Subsystem.Пр_КорпоративнаяСистемаGitLab.CommandInterface" id="5fed5fc9-2d41-4e5c-a1f4-11b0b5d08709.1" configVersion="b09df7b3fbd3cdac9d8937fcae5939d1e408eb59"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

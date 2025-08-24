@@ -196,6 +196,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Document.Пр_ПлановаяВыработкаЧасов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -252,6 +257,11 @@
 			</Visibility>
 		</Command>
 		<Command name="InformationRegister.Пр_ДействующееРаспределение.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактоваяВыработка.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -424,6 +434,10 @@
 			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="Document.Пр_ПлановаяВыработкаЧасов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Пр_ПланыСчетов</CommandGroup>
 			<Placement>Auto</Placement>
@@ -469,6 +483,10 @@
 			<Placement>Auto</Placement>
 		</Command>
 		<Command name="InformationRegister.Пр_ДействующееРаспределение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактоваяВыработка.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -591,6 +609,9 @@
 		<Command name="Document.Пр_ПравилаРаспределения.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
 		</Command>
+		<Command name="Document.Пр_ПлановаяВыработкаЧасов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_Документы</CommandGroup>
+		</Command>
 		<Command name="ChartOfAccounts.Управленческий.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Пр_ПланыСчетов</CommandGroup>
 		</Command>
@@ -625,6 +646,9 @@
 			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.Пр_ДействующееРаспределение.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Пр_ПланФактоваяВыработка.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Пр_РегистрыСведений</CommandGroup>
 		</Command>
 	</CommandsOrder>

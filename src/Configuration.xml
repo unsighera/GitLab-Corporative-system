@@ -153,6 +153,7 @@
 			<CommonModule>Пр_УведомленияКалендарейСервер</CommonModule>
 			<CommonModule>Пр_УведомленияКаледнарейВызовСервераПривилегированный</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ПодключаемыеПроцедуры</CommonModule>
 			<ExchangePlan>Пр_ОбменGitLab</ExchangePlan>
 			<HTTPService>Пр_GitLabWebhooks</HTTPService>
 			<HTTPService>Пр_MobileApplic</HTTPService>
@@ -235,6 +236,7 @@
 			<Document>Пр_ОтчетЗаДень</Document>
 			<Document>Пр_ПравилаРаспределения</Document>
 			<Document>ЗаказПокупателя</Document>
+			<Document>Пр_ПлановаяВыработкаЧасов</Document>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ВариантыВажности</Enum>
 			<Enum>ТипыСобытий</Enum>
@@ -264,6 +266,7 @@
 			<InformationRegister>Пр_НастройкиУведомленийКалендарей</InformationRegister>
 			<InformationRegister>Пр_ОповещенияПользователей</InformationRegister>
 			<InformationRegister>Пр_ДействующееРаспределение</InformationRegister>
+			<InformationRegister>Пр_ПланФактоваяВыработка</InformationRegister>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
