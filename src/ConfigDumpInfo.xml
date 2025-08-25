@@ -186,7 +186,7 @@
 		<Metadata name="CommonPicture.СтрелкаВлевоСплошная" id="ca880bf7-b581-4073-8fce-78bd683b7cd3" configVersion="c2853fc6bf948c96d3f4156757e9a444fb16564f"/>
 		<Metadata name="CommonPicture.СтрелкаВправоСплошная" id="abfbf2b3-a027-442f-b4f3-1d0e60dc7668" configVersion="870769decc9dbf9e824592c83fffc5129654ce6c"/>
 		<Metadata name="CommonPicture.Шестеренка" id="74266477-e3dc-4164-9799-a014a153ba80" configVersion="2b196d6474651ec0e0fc55143eb516b934367f9d"/>
-		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="2de5237f7d2857f590bf00eb88a92219fff49609"/>
+		<Metadata name="Configuration.GitLabКорп" id="3456091c-67b0-4756-bbe8-4d6e415e2f3c" configVersion="30d56b9a22f5ab0b3d6594ec41fe268d18e70524"/>
 		<Metadata name="Configuration.GitLabКорп.ManagedApplicationModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.6" configVersion="70f87e61421eae6e6d9593e01c6a892e64d643ad"/>
 		<Metadata name="Configuration.GitLabКорп.SessionModule" id="c630d287-8e8d-459a-bd2b-1784b8eda0e8.7" configVersion="290e45ba2b82225cd8511dfbe262e493054acb10"/>
 		<Metadata name="Constant.ВалютаУчета" id="8df8ff83-901d-44cc-967d-dc34f66fe307" configVersion="10548d893b851cf934820a1b9abb18b091d54894"/>
@@ -256,6 +256,8 @@
 		<Metadata name="Document.ЗаданиеНаРаботу.Template.Пр_ПФ_DOCX_ТехническоеЗадание" id="41c743f5-dee3-40f8-980e-3a72d8757fd6" configVersion="2fb0f7a0136e11cde220710042342c4beac48af3"/>
 		<Metadata name="Document.ЗаданиеНаРаботу.Template.Пр_ПФ_DOCX_ТехническоеЗадание.Template" id="41c743f5-dee3-40f8-980e-3a72d8757fd6.0" configVersion="e6993c9bb99ff200f6b403d1043fbf4552696d9f"/>
 		<Metadata name="Document.ЗаказПокупателя" id="480d4978-9844-4e34-bfd5-3e59f076deb2" configVersion="e3c428084f0fd95c17b12bd91575eeda5c36b823"/>
+		<Metadata name="Document.ЗакрытиеМесяца" id="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf" configVersion="37863baba2a0ea4192a6b179d5146dc5c6b3c396"/>
+		<Metadata name="Document.ЗакрытиеМесяца.ObjectModule" id="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf.0" configVersion="1bb441854149a10d89d6f0c2c5b2cc8cf58835aa"/>
 		<Metadata name="Document.НачислениеЗарплатыУНФ" id="19305d60-32fa-41b0-ac4c-213a1152364e" configVersion="2ae10fb10cc6ef9811bab1ae8dbe67cc0bfee956">
 			<Metadata name="Document.НачислениеЗарплатыУНФ.TabularSection.НачисленияУдержания" id="438e7c70-d3eb-4dda-85e4-26d089f1639d"/>
 			<Metadata name="Document.НачислениеЗарплатыУНФ.TabularSection.НачисленияУдержания.Attribute.СчетЗатрат" id="9a534807-f654-4c78-9b6b-280b364a999c"/>
@@ -417,7 +419,7 @@
 			<Metadata name="InformationRegister.КурсыВалют.Resource.Кратность" id="6052b152-ffd7-4235-a35e-8eb8023354a9"/>
 			<Metadata name="InformationRegister.КурсыВалют.Dimension.Валюта" id="8ad22403-89af-46c8-bd3c-9d56f2dec8f6"/>
 		</Metadata>
-		<Metadata name="InformationRegister.Пр_ДействующееРаспределение" id="a5099e9a-a3ba-4edb-bed0-0e92a7037693" configVersion="61928bc01ba10e89f916a8ba50351d07290959be">
+		<Metadata name="InformationRegister.Пр_ДействующееРаспределение" id="a5099e9a-a3ba-4edb-bed0-0e92a7037693" configVersion="5ce55ea4fc6eb4b524c47d5d519a39d21c5d6f22">
 			<Metadata name="InformationRegister.Пр_ДействующееРаспределение.Dimension.Расход" id="24de3ccc-c5de-42ba-8058-cd531a72f216"/>
 			<Metadata name="InformationRegister.Пр_ДействующееРаспределение.Dimension.Проект" id="28cb4324-66bc-48eb-bee6-7cebb402261b"/>
 		</Metadata>

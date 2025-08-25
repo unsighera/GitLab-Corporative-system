@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗакрытиеМесяца" category="Object">
+				<xr:TypeId>1a88f036-2468-4ed4-bba3-6f8a10ebf206</xr:TypeId>
+				<xr:ValueId>fbdd65b0-19ac-402e-b1c0-88d4f27f43ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗакрытиеМесяца" category="Ref">
+				<xr:TypeId>dd3cf535-049c-412f-9385-b65346889ca3</xr:TypeId>
+				<xr:ValueId>cefb6a7c-dbbe-435e-b0a1-9cecbccba85c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗакрытиеМесяца" category="Selection">
+				<xr:TypeId>f42f2a85-0189-450b-9a73-f0518224670b</xr:TypeId>
+				<xr:ValueId>a17fac1d-9f25-4e09-a543-e2ccbd400907</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗакрытиеМесяца" category="List">
+				<xr:TypeId>86c9308a-1a9b-416c-b492-62c4601eae0b</xr:TypeId>
+				<xr:ValueId>f9c0aa27-3e4a-49fd-a2ae-70152a8f1b79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗакрытиеМесяца" category="Manager">
+				<xr:TypeId>508f935c-2297-4140-92a7-5318bcecfe31</xr:TypeId>
+				<xr:ValueId>bf8ee5a2-d9e4-4566-9b85-b542423c030a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗакрытиеМесяца</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f68b2147-7ab4-4f44-b188-9ead55e787d9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

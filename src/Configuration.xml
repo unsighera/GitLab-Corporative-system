@@ -237,6 +237,7 @@
 			<Document>Пр_ПравилаРаспределения</Document>
 			<Document>ЗаказПокупателя</Document>
 			<Document>Пр_ПлановаяВыработкаЧасов</Document>
+			<Document>ЗакрытиеМесяца</Document>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ВариантыВажности</Enum>
 			<Enum>ТипыСобытий</Enum>
