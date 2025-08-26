@@ -220,8 +220,8 @@
 		<Metadata name="DefinedType.ИсточникЗаписейКалендаря" id="d17d3e83-9295-476b-a88a-adbf4840d401" configVersion="a95c1126d5d2582bdd6bb85987e64de4c9673055"/>
 		<Metadata name="DefinedType.КурсВалюты" id="27a218af-fc7e-4f78-9531-46bb1baef14f" configVersion="ffba6c58a72a0235b7e64a69fc34660f4f988e3d"/>
 		<Metadata name="DefinedType.ПолеРегистраКлючейДоступаКРегистрам" id="c9b6e9b9-9f18-40ac-9b9e-8ec5c9ccff2a" configVersion="efb9406a19b83f817612c04d4a971ff719353c7a"/>
-		<Metadata name="DefinedType.ПрисоединенныйФайл" id="9a9fd7fd-4f93-4e26-ab94-258a7fa1f5ff" configVersion="1a7251bc3207ace6e2af32390a598f45f97b84ba"/>
-		<Metadata name="DefinedType.ПрисоединенныйФайлОбъект" id="dd19e099-e01a-415a-b477-5a8b4c0fbf60" configVersion="bd0cab9fc59e4e540e2e21e77e92635bc19c94b7"/>
+		<Metadata name="DefinedType.ПрисоединенныйФайл" id="9a9fd7fd-4f93-4e26-ab94-258a7fa1f5ff" configVersion="48227c8991727fa0df9623ae77d228dc399641dc"/>
+		<Metadata name="DefinedType.ПрисоединенныйФайлОбъект" id="dd19e099-e01a-415a-b477-5a8b4c0fbf60" configVersion="b635f62414805997d4ce9ce9c81a5b037ec2f973"/>
 		<Metadata name="Document.АктВыполненныхРабот" id="8435ad1a-7d8a-4eb3-9bb3-78d7b0ef198c" configVersion="66c68269bcc125dd642145c622d58f6a093c4b68">
 			<Metadata name="Document.АктВыполненныхРабот.Attribute.Контрагент" id="20cf0931-8dc4-4250-b6da-de3980f280f8"/>
 			<Metadata name="Document.АктВыполненныхРабот.TabularSection.РаботыИУслуги.Attribute.Номенклатура" id="2eccd6a9-9aa3-4ad8-9c70-33b7abfaca87"/>

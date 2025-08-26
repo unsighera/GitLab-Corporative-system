@@ -6,13 +6,21 @@
 				<xr:TypeId>93932f3c-d621-4941-8e5d-68c824ebbd8e</xr:TypeId>
 				<xr:ValueId>cd47a028-c212-4c1f-9461-63e82ef60947</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПрисоединенныйФайлОбъект</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>9b67bfd5-ef23-4205-b7ba-9466517e9999</ExtendedConfigurationObject>
-			<Type/>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:CatalogObject.Пр_ПравилаРаспределенияПрисоединенныеФайлы</v8:Type>
+				</xr:ExtendValue>
+			</Type>
 		</Properties>
 	</DefinedType>
 </MetaDataObject>
