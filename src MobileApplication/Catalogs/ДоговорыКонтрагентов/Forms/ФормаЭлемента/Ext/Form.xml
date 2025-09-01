@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>Swipe</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<Page name="СтраницаИнформацияОДоговоре" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация о договоре</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница информация о договоре</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ChildrenAlign>ItemsRightTitlesLeft</ChildrenAlign>
+					<ExtendedTooltip name="СтраницаИнформацияОДоговореРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</LabelField>
+						<LabelField name="НомерДоговора" id="19">
+							<DataPath>Объект.НомерДоговора</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НомерДоговораКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="НомерДоговораРасширеннаяПодсказка" id="21"/>
+						</LabelField>
+						<LabelField name="ДатаДоговора" id="22">
+							<DataPath>Объект.ДатаДоговора</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаДоговораКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ДатаДоговораРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="ВидДоговора" id="16">
+							<DataPath>Объект.ВидДоговора</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВидДоговораКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ВидДоговораРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="Организация" id="13">
+							<DataPath>Объект.Организация</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="15"/>
+						</LabelField>
+						<LabelField name="ВалютаРасчетов" id="25">
+							<DataPath>Объект.ВалютаРасчетов</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ВалютаРасчетовКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ВалютаРасчетовРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+						<CheckBoxField name="ДоговорПодписан" id="28">
+							<DataPath>Объект.ДоговорПодписан</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДоговорПодписанКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ДоговорПодписанРасширеннаяПодсказка" id="30"/>
+						</CheckBoxField>
+						<CheckBoxField name="Недействителен" id="31">
+							<DataPath>Объект.Недействителен</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НедействителенКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="НедействителенРасширеннаяПодсказка" id="33"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДополнительнаяИнформация" id="41">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница дополнительная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ChildrenAlign>ItemsRightTitlesLeft</ChildrenAlign>
+					<ExtendedTooltip name="СтраницаДополнительнаяИнформацияРасширеннаяПодсказка" id="42"/>
+					<ChildItems>
+						<LabelField name="Владелец" id="7">
+							<DataPath>Объект.Owner</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+						</LabelField>
+						<LabelField name="Родитель" id="10">
+							<DataPath>Объект.Parent</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="РодительКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="12"/>
+						</LabelField>
+						<LabelField name="Комментарий" id="34">
+							<DataPath>Объект.Комментарий</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="36"/>
+						</LabelField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ДоговорыКонтрагентов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
