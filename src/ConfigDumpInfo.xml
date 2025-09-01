@@ -257,7 +257,7 @@
 		<Metadata name="Document.ЗаданиеНаРаботу.Template.Пр_ПФ_DOCX_ТехническоеЗадание.Template" id="41c743f5-dee3-40f8-980e-3a72d8757fd6.0" configVersion="e6993c9bb99ff200f6b403d1043fbf4552696d9f"/>
 		<Metadata name="Document.ЗаказПокупателя" id="480d4978-9844-4e34-bfd5-3e59f076deb2" configVersion="e3c428084f0fd95c17b12bd91575eeda5c36b823"/>
 		<Metadata name="Document.ЗакрытиеМесяца" id="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf" configVersion="37863baba2a0ea4192a6b179d5146dc5c6b3c396"/>
-		<Metadata name="Document.ЗакрытиеМесяца.ObjectModule" id="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf.0" configVersion="1bb441854149a10d89d6f0c2c5b2cc8cf58835aa"/>
+		<Metadata name="Document.ЗакрытиеМесяца.ObjectModule" id="f304d5f9-bfa2-4540-9739-3c8f8cc09cdf.0" configVersion="35bb884882f2a9b3cd902d5946692d9441880825"/>
 		<Metadata name="Document.НачислениеЗарплатыУНФ" id="19305d60-32fa-41b0-ac4c-213a1152364e" configVersion="2ae10fb10cc6ef9811bab1ae8dbe67cc0bfee956">
 			<Metadata name="Document.НачислениеЗарплатыУНФ.TabularSection.НачисленияУдержания" id="438e7c70-d3eb-4dda-85e4-26d089f1639d"/>
 			<Metadata name="Document.НачислениеЗарплатыУНФ.TabularSection.НачисленияУдержания.Attribute.СчетЗатрат" id="9a534807-f654-4c78-9b6b-280b364a999c"/>
